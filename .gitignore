@@ -12,12 +12,16 @@ htmlcov/
 coverage.xml
 .pytest_cache/
 
+
 # this is me
-.json
-.pdf
+*.json
+#.pdf
 tasks/
-.log
-.csv
+*.log
+*.csv
+new*
+test*
+*.csv
 
 .streamlit/secrets.toml
 job_assist_cred.json
