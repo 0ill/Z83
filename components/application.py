@@ -906,8 +906,8 @@ def job_application_assistant():
         with col2s:
             if st.button("Coming soon Resume Builder", use_container_width=True, key="go_to_resume"):
                 #st.session_state.current_section = "Resume Builder"
-                #st.rerun()
-                #
+                st.rerun()
+                
 
         if st.session_state.current_section == "Application Form":
             with st.container(border=True):
