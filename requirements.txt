@@ -1,0 +1,10 @@
+streamlit==1.45.0
+gspread
+oauth2client
+pandas
+bcrypt
+fillpdf
+google-auth
+python-docx
+google-api-python-client
+watchdog
