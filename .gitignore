@@ -24,6 +24,8 @@ test*
 *.csv
 
 .streamlit/secrets.toml
+preview.py
+
 job_assist_cred.json
 __pycache__
 *.pyc
