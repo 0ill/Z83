@@ -20,11 +20,12 @@ tasks/
 *.log
 *.csv
 new*
+Z83_Form_*
 test*
 *.csv
 preview.py
 governance_app.py
-pdf_viewwe.py
+pdf_viewer.py
 
 .streamlit/secrets.toml
 job_assist_cred.json
