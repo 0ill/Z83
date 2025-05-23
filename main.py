@@ -32,7 +32,9 @@ def parse_date(date_str):
         "%d %b %Y",           # 13 May 2025 (abbreviated month)
         "%d %b %Y at %HH%M",  # 02 May 2025 at 16H00
         "%d %b %Y @ %HH%M",   # 23 May 2025 @ 16h00
-        "%d %B %Y @ %Hh%M"    # 02 June 2025 @ 15h45
+        "%d %B %Y @ %Hh%M",    # 02 June 2025 @ 15h45
+        "%d %B %Y @%Hh%M",      #30 May 2025, 16:00
+        "%d %B %Y, %H:%M"      #30 May 2025, 16:00
     ]
     for fmt in formats:
         try:
